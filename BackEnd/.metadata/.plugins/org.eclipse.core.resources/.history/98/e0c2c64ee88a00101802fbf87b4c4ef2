@@ -1,0 +1,5 @@
+package com.travel.buketList.controller;
+
+public class DestinationController {
+
+}

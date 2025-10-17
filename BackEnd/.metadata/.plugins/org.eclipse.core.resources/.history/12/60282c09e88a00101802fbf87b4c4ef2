@@ -1,0 +1,5 @@
+package com.travel.buketList.repository;
+
+public class DestinationRepository {
+
+}

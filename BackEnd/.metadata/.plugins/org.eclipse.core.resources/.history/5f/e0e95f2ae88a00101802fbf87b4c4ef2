@@ -1,0 +1,5 @@
+package com.travel.buketList.service;
+
+public class DestinationService {
+
+}

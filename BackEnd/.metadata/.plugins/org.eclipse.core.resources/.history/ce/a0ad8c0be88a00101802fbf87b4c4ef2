@@ -1,0 +1,5 @@
+package com.travel.buketList.model;
+
+public class Destination {
+
+}
