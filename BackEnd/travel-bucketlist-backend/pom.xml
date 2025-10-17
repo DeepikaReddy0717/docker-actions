@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>travel-bucketlist-backend</name>
 	<description>Travel Bucket List</description>
-	<packaging>war</packaging>
+	
 	<url/>
 	<licenses>
 		<license/>
@@ -63,7 +63,6 @@
 	</dependencies>
 
 	<build>
-	  <finalName>tt-bb</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
