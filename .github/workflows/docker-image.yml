@@ -29,7 +29,7 @@ jobs:
           context: ./BackEnd/travel-bucketlist-backend
           file: ./BackEnd/travel-bucketlist-backend/backend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/d1:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dd1:latest
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
@@ -37,4 +37,4 @@ jobs:
           context: ./FrontEnd/travel-bucketlist
           file: ./FrontEnd/travel-bucketlist/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/d2:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dd2:latest
