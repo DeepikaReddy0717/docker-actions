@@ -1,10 +1,8 @@
 package com.travel.buketList.controller;
-
 import com.travel.buketList.model.Destination;
 import com.travel.buketList.service.DestinationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -17,7 +15,11 @@ public class DestinationController {
     public DestinationController(DestinationService service) {
         this.service = service;
     }
-
+    @GetMapping("/")
+    public String deepu()
+    {
+        return "Hello Working";
+    }
     // GET all
     @GetMapping("/all")
     public List<Destination> getAllDestinations() {
